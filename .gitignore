@@ -1,0 +1,93 @@
+# Operating System files
+##########################
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Linux
+*~
+
+# IDEs and Editors
+######################
+# IntelliJ IDEA
+.idea/
+
+# VS Code
+.vscode/
+
+# Eclipse
+.project
+.classpath
+.csettings/
+
+# NetBeans
+nbproject/
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Logs
+##########
+*.log
+
+# Dependency directories
+##########################
+# Node.js / npm
+node_modules/
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Java
+*.class
+
+# Build directories
+##########################
+# Maven
+target/
+
+# Gradle
+build/
+
+# Ruby
+*.gem
+*.rbc
+.bundle/
+vendor/
+
+# Package Distribution
+##########################
+# npm / yarn
+dist/
+build/
+
+# Compiled object files
+##########################
+*.o
+*.a
+*.out
+*.obj
+
+# Distribution
+##########################
+*.tar.gz
+*.zip
+*.tar.bz2
+*.tgz
+
+# Coverage
+##########################
+coverage/
+*.lcov
+
+# Operating System files (extended)
+##########################
+*.swp
+*.swo
