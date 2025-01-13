@@ -2,6 +2,15 @@
 @@@@@@@@@@@@@@@@@@ Operator in JavaScript @@@@@@@@@@@@@@@@@@
 */
 
+/*
+    Summary of Operators:
+    1. Arithmetic Operators (+, -, *, /, %): Perform basic math operations.
+    2. Assignment Operators (=, +=, -=, *=, /=): Assign and update variable values.
+    3. Comparison Operators (==, !=, >, <, >=, <=): Compare values and return boolean.
+    4. Logical Operators (&&, ||, !): Combine or negate boolean expressions.
+    5. Ternary Operator (condition ? true_value : false_value): Shortened if-else for conditional logic.
+*/
+
 // --- Arithmetic Operators ---
 let itemPrice = 50;   // Price of an item
 let quantity = 3;     // Quantity of items
@@ -44,12 +53,3 @@ console.log("Can Enter Either Condition:", canEnterEither);  // Output: true
 let age = 16;  // Person's age
 let status = age >= 18 ? "Adult" : "Minor";  // Check if person is an adult
 console.log("Status:", status);  // Output: "Minor"
-
-/*
-    Summary of Operators:
-    1. Arithmetic Operators (+, -, *, /, %): Perform basic math operations.
-    2. Assignment Operators (=, +=, -=, *=, /=): Assign and update variable values.
-    3. Comparison Operators (==, !=, >, <, >=, <=): Compare values and return boolean.
-    4. Logical Operators (&&, ||, !): Combine or negate boolean expressions.
-    5. Ternary Operator (condition ? true_value : false_value): Shortened if-else for conditional logic.
-*/
