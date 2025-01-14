@@ -4,13 +4,13 @@
 
 // Example 1: Basic `if` Statement
 
-let temperature = 30;
+let temperature = 25;
 if (temperature > 25) {
   console.log("It's a hot day!");
 }
 
 // Example 2: `if` and `if-else` Statement
-let isRaining = false;
+let isRaining = true;
 if (isRaining) {
   console.log("Take an umbrella!");
 } else {

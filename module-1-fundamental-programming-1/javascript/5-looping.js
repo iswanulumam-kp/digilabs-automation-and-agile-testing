@@ -5,7 +5,7 @@
 // Example 1: Basic `for` Loop
 console.log("Example 1: Basic for loop");
 
-for (let i = 0; i < 5; i++) {
+for (let i = 1; i < 5; i++) {
   console.log(i); // Outputs: 0, 1, 2, 3, 4
 }
 

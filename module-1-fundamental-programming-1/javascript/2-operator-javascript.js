@@ -6,6 +6,9 @@
     Summary of Operators:
     1. Arithmetic Operators (+, -, *, /, %): Perform basic math operations.
     2. Assignment Operators (=, +=, -=, *=, /=): Assign and update variable values.
+        totalvalue = totalValue + discount
+        totalValue += discount
+
     3. Comparison Operators (==, !=, >, <, >=, <=): Compare values and return boolean.
     4. Logical Operators (&&, ||, !): Combine or negate boolean expressions.
     5. Ternary Operator (condition ? true_value : false_value): Shortened if-else for conditional logic.
@@ -30,7 +33,7 @@ balance -= 200;       // Subtract 200 from balance
 console.log("Updated Balance:", balance);  // Output: 1300
 
 // --- Comparison Operators ---
-let personAge = 25;   // Age of a person
+let personAge = 23;   // Age of a person
 let minimumAge = 18;  // Minimum legal age for voting
 
 let isEligibleToVote = personAge >= minimumAge;  // Check if eligible to vote
