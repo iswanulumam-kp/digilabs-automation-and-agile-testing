@@ -22,7 +22,7 @@ export const config = {
     //
     specs: [
         // ToDo: define location for spec files here
-        './test/specs/**/*.js'
+        'specs/**/*.js'
     ],
     // Patterns to exclude.
     exclude: [
@@ -76,6 +76,9 @@ export const config = {
     //     webdriver: 'info',
     //     '@wdio/appium-service': 'info'
     // },
+    logLevels: {
+        webdriver: 'debug',
+    },
     //
     // If you only want to run your tests until a specific amount of tests have failed use
     // bail (default is 0 - don't bail, run all tests).
@@ -85,7 +88,7 @@ export const config = {
     // with `/`, the base url gets prepended, not including the path portion of your baseUrl.
     // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
     // gets prepended directly.
-    baseUrl: 'https://practice.sdetunicorns.com',
+    baseUrl: 'https://www.amazon.com/',
     //
     // Default timeout for all waitFor* commands.
     waitforTimeout: 10000,

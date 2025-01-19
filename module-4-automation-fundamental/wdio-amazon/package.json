@@ -1,5 +1,5 @@
 {
-  "name": "webdriverio",
+  "name": "wdio-amazon",
   "type": "module",
   "devDependencies": {
     "@wdio/cli": "^9.5.7",
