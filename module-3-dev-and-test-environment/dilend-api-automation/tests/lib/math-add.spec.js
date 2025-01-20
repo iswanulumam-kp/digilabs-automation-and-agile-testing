@@ -1,9 +1,9 @@
 const { add, subtract } = require('../../lib/math');
 
 describe('add()', () => {
-
+    
     it('should return the sum of two positive numbers', () => {
-        expect(add(5, 3)).toBe(8);
+        expect(add(5, 200)).toBe(205);
     });
 
     it('should return zero when both numbers are zero', () => {
@@ -15,7 +15,7 @@ describe('add()', () => {
     });
 
     it('should throw an error if the second argument is not a number', () => {
-        expect(() => add(3, 'b')).toThrow('Both arguments must be numbers.');
+        expect(() => subtract(5, 'b')).toThrow('Both arguments must be numbers.');
     });
 
 });
