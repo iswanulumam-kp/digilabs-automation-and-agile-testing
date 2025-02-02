@@ -1,7 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","26","Then I should see a flash message saying You logged into a secure area!","","Wed Jan 22 13:17:40 WIB 2025","passed","Wed Jan 22 13:17:40 WIB 2025","","The Internet Guinea Pig Website: As a user, I can log into the secure area","",""
-"","0","hook:","","Wed Jan 22 13:17:41 WIB 2025","failed","Wed Jan 22 13:17:41 WIB 2025","","","",""
-"","652","When I login with foobar and barfoo","","Wed Jan 22 13:17:41 WIB 2025","passed","Wed Jan 22 13:17:41 WIB 2025","","The Internet Guinea Pig Website: As a user, I can log into the secure area","",""
-"","702","When I login with tomsmith and SuperSecretPassword!","","Wed Jan 22 13:17:40 WIB 2025","passed","Wed Jan 22 13:17:40 WIB 2025","","The Internet Guinea Pig Website: As a user, I can log into the secure area","",""
-"","274","Given I am on the login page","","Wed Jan 22 13:17:40 WIB 2025","passed","Wed Jan 22 13:17:41 WIB 2025","","The Internet Guinea Pig Website: As a user, I can log into the secure area","",""
-"","12","Then I should see a flash message saying Your username is invalid!","","Wed Jan 22 13:17:41 WIB 2025","passed","Wed Jan 22 13:17:41 WIB 2025","","The Internet Guinea Pig Website: As a user, I can log into the secure area","",""
